@@ -6,7 +6,8 @@
   "description": "A simple hello world component.",
   "files": [
     {
-      "path": "my-component/MyComponent.tsx",
+      "path": "registry/my-component/MyComponent.tsx",
+      "content": "// MyComponent.tsx\nexport function MyComponent() {\n  return <div className=\"p-4 rounded bg-gray-100 text-gray-800\">Hello from MyComponent!</div>\n}\n",
       "type": "registry:component"
     }
   ]
