@@ -6,7 +6,7 @@
   "description": "A simple hello world component.",
   "files": [
     {
-      "path": "registry/my-component/MyComponent.tsx",
+      "path": "my-component/MyComponent.tsx",
       "type": "registry:component"
     }
   ]
