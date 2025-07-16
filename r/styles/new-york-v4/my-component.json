@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "my-component",
+  "type": "component",
+  "dependencies": {},
+  "files": [
+    {
+      "name": "my-component.tsx",
+      "content": "// MyComponent.tsx\nexport function MyComponent() {\n  return <div className=\"p-4 rounded bg-gray-100 text-gray-800\">Hello from MyComponent!</div>\n}\n"
+    }
+  ]
+}
