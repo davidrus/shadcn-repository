@@ -8,7 +8,7 @@
       "type": "registry:block",
       "title": "Hello World",
       "description": "A simple hello world component.",
-      "files": [{ "path": "registry/my-component/MyComponent.tsx", "type": "registry:component" }]
+      "files": [{ "path": "my-component/MyComponent.tsx", "type": "registry:component" }]
     }
   ]
 }
