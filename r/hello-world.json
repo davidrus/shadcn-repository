@@ -9,11 +9,6 @@
       "path": "registry/my-component/MyComponent.tsx",
       "content": "// MyComponent.tsx\nexport function MyComponent() {\n  return <div className=\"p-4 rounded bg-gray-100 text-gray-800\">Hello from MyComponent!</div>\n}\n",
       "type": "registry:component"
-    },
-    {
-      "path": "registry/my-component2/MyComponent2.tsx",
-      "content": "// MyComponent.tsx\nexport function MyComponent2() {\n  return <div className=\"p-4 rounded bg-gray-100 text-gray-800\">Hello from MyComponent2!</div>\n}\n",
-      "type": "registry:component"
     }
   ]
 }
