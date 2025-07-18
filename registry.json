@@ -1,14 +1,33 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "my-registry",
-  "homepage": "https://example.com",
+  "name": "shadcn",
+  "homepage": "https://ui.shadcn.com",
   "items": [
     {
-      "name": "my-component",
-      "type": "registry:component",
-      "title": "My Component",
-      "description": "Example custom component.",
-      "files": [{ "path": "registry/my-component/MyComponent.tsx", "type": "registry:component" }]
+      "name": "Layout",
+      "type": "registry:block",
+      "title": "Layout",
+      "description": "The whole layout.",
+      "files": [
+        { "path": "registry/layout/AppHeader.tsx", "type": "registry:component" },
+        { "path": "registry/layout/AppSidebar.tsx", "type": "registry:component" },
+        { "path": "registry/layout/Breadcrumbs.tsx", "type": "registry:component" },
+        { "path": "registry/layout/Layout.tsx", "type": "registry:component" },
+        { "path": "registry/layout/OrganizationSwitch.tsx", "type": "registry:component" },
+        { "path": "registry/layout/SidebarMainNav.tsx", "type": "registry:component" },
+        { "path": "registry/ui/avatar.tsx", "type": "registry:component" },
+        { "path": "registry/ui/breadcrumb.tsx", "type": "registry:component" },
+        { "path": "registry/ui/button.tsx", "type": "registry:component" },
+        { "path": "registry/ui/collapsible.tsx", "type": "registry:component" },
+        { "path": "registry/ui/dropdown-menu.tsx", "type": "registry:component" },
+        { "path": "registry/ui/input.tsx", "type": "registry:component" },
+        { "path": "registry/ui/label.tsx", "type": "registry:component" },
+        { "path": "registry/ui/separator.tsx", "type": "registry:component" },
+        { "path": "registry/ui/sheet.tsx", "type": "registry:component" },
+        { "path": "registry/ui/sidebar.tsx", "type": "registry:component" },
+        { "path": "registry/ui/skeleton.tsx", "type": "registry:component" },
+        { "path": "registry/ui/tooltip.tsx", "type": "registry:component" }
+      ]
     }
   ]
 }
